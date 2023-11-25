@@ -1,4 +1,4 @@
-public class clientType {
+public class ClientType {
     private String code;
     private String address;
     private String population;
@@ -6,11 +6,8 @@ public class clientType {
     private String mail;
     private String phoneNumber;
 
-    public clientType() {
-    }
-
     public String getCode() {
-        return this.code;
+        return code;
     }
 
     public void setCode(String code) {
@@ -18,7 +15,7 @@ public class clientType {
     }
 
     public String getAddress() {
-        return this.address;
+        return address;
     }
 
     public void setAddress(String address) {
@@ -26,7 +23,7 @@ public class clientType {
     }
 
     public String getPopulation() {
-        return this.population;
+        return population;
     }
 
     public void setPopulation(String population) {
@@ -34,7 +31,7 @@ public class clientType {
     }
 
     public String getProvince() {
-        return this.province;
+        return province;
     }
 
     public void setProvince(String province) {
@@ -42,7 +39,7 @@ public class clientType {
     }
 
     public String getMail() {
-        return this.mail;
+        return mail;
     }
 
     public void setMail(String mail) {
@@ -50,7 +47,7 @@ public class clientType {
     }
 
     public String getPhoneNumber() {
-        return this.phoneNumber;
+        return phoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
